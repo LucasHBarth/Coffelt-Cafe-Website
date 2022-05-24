@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Montaga&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+
+.header__content{
+    width: 100%;
+    height: 109px;
+  
+}
+
+.header__logo{
+   
+}
+
+.text__logo{
+    font-family: 'Montaga', serif;
+    font-size: 32px;
+    color: #b57b22;
+    position:absolute;
+    margin-top: 2.8rem;
+    margin-left: 2rem;
+
+
+}
+
+.header__search{
+    display: grid;
+    margin-left: 15rem;
+    position:absolute;
+    margin-top: 3.4rem;
+    font-size: 1.5rem;
+}
+
+.header__hamburger{
+    display: grid;
+    margin-left: 19rem;
+    position:absolute;
+    margin-top: 3.4rem;
+    font-size: 1.5rem;
+    background-color: #fff;
+    border:none!important;
+}
+
+.header__background{
+    width: 100%;
+    height: 701px;
+    background-color: #d7cbb8;
+}
+
+.header__title{
+    color: #fff;
+    position: absolute;
+    font-size: 46px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    margin-top: 7.8rem;
+    margin-left: 1.5rem;
+}
+
+.header__subtitle{
+    color: #fff;
+    position: absolute;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    margin-top: 19.7rem;
+    margin-left: 1.5rem;
+}
+
+.header__btn{
+    background-color: #fff;
+    text-align: center;
+    display: block;
+    position: absolute;
+    border:none!important;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    border-radius: 12px;
+    width: 11.9rem;
+    height: 3.75rem;
+    margin-top: 28.25rem;
+    margin-left: 1.5rem;
+}
+
+.header__btn-play{
+    background-color: #fff;
+    border:none!important;
+    font-weight: 800;
+    border-radius: 42px;
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-top: 33.8rem;
+    text-align: center;
+    margin-left: 1.5rem;    
+}
+
+.text_btn-play{
+    color: #fff;
+    font-size: 16;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    margin-left: 0.5rem;
+    margin-top: 33.8rem;
+}
+
+.advantage__container{
+    height: 86.4rem;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+   
+}
+
+.advantage__content{
+    position: absolute;
+    display: flex;
+    width: 20.4rem;
+    height: 71.1;
+    margin: auto;
+    margin-top: 5.8rem;
+   
+}
+
+.advantage__title{
+    text-align: center;
+    font-size: 32px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+
+}
+
+.advantage__subtitle{
+    text-align: center;
+    font-size: 16px;
+    color: #6b6b6b;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    margin-top: 2rem;
+}
+
+.advantage_list{
+    margin-top: 4.5rem;
+
+}
+
+.circle{
+    width: 7.8rem;
+    height: 7.8rem;
+    border-radius: 80px;
+    margin: 0 auto;
+    text-align: center; 
+    background-color: #f7f7f7;
+}
+
+.circle img{
+    color: #dfab5b;
+    margin-top: 2.7rem;
+    align-items: center;
+}
+
+.advantage_list-title{
+    text-align: center;
+    font-size: 22px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    margin-top: 1.5rem;
+}
+
+.advantage_list-subtitle{
+    text-align: center;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: #6b6b6b;
+    margin-top: 1.8rem;
+}
