@@ -117,7 +117,7 @@
 }
 
 .advantage__content{
-    position: absolute;
+    position: relative;
     display: flex;
     width: 20.4rem;
     height: 71.1;
@@ -179,3 +179,4 @@
     color: #6b6b6b;
     margin-top: 1.8rem;
 }
+
