@@ -7,15 +7,15 @@
     margin: 0;
   }
 
+  
 .header__content{
     width: 100%;
     height: 109px;
+    
   
 }
 
-.header__logo{
-   
-}
+
 
 .text__logo{
     font-family: 'Montaga', serif;
@@ -50,6 +50,12 @@
     width: 100%;
     height: 701px;
     background-color: #d7cbb8;
+}
+
+.img__background{
+    width: 100%;
+    height: 701px;
+    position: absolute;
 }
 
 .header__title{
@@ -90,22 +96,26 @@
 .header__btn-play{
     background-color: #fff;
     border:none!important;
+    position: absolute;
     font-weight: 800;
     border-radius: 42px;
     width: 2.5rem;
     height: 2.5rem;
     margin-top: 33.8rem;
     text-align: center;
-    margin-left: 1.5rem;    
+    margin-left: 1.5rem; 
+    z-index: 2; 
+    
 }
 
 .text_btn-play{
     color: #fff;
     font-size: 16;
+    position: absolute;
     font-family: 'Mulish', sans-serif;
     font-weight: 400;
-    margin-left: 0.5rem;
-    margin-top: 33.8rem;
+    margin-left: 5rem;
+    margin-top: 34.3rem;
 }
 
 .advantage__container{
@@ -180,3 +190,60 @@
     margin-top: 1.8rem;
 }
 
+.needs__container{
+    width: 100%;
+    height: 87.5rem;
+    background-color: #f9f9f9;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.needs__content{
+    position: absolute;
+    margin-top: 4.8rem;
+    width: 20.5rem;
+    align-items: center;
+    justify-content: center;
+    
+   
+}
+
+.needs__title{
+    font-size: 32px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    text-align: center;
+}
+
+.needs__subtitle{
+    color: #6b6b6b;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    margin-top: 2.1rem;
+    text-align: center;
+}
+
+.needs__remote-title{
+    font-size: 22px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    margin-top: 7.1rem;
+    text-align: center;
+}
+
+.needs__remote-subtitle{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: #6b6b6b;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+.needs__remote-img {
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
