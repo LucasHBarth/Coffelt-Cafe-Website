@@ -298,6 +298,7 @@
     font-family: 'Mulish', sans-serif;
     font-weight: 600;
     color: #6b6b6b;
+    height: 16rem;
 }
 
 .text__about-2{
@@ -309,5 +310,170 @@
     top: 2.6rem;
     text-decoration: underline;
     font-family: 'Mulish', sans-serif;
-    font-weight: 600;
+    font-weight: 400;
+    font-size: 14px;
 }
+
+.menu__container{
+    width: 100%;
+    height: 51.2rem;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+}
+
+.menu__content{
+   
+}
+
+.menu__title{
+    margin-top: 6.2rem;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+    font-size: 32px;
+}
+
+.menu__subtitle{
+    margin-top: 2.1rem;
+    text-align: center;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #6b6b6b;
+}
+
+.menu__cars{
+    margin-top: 2.9rem;
+    display: grid;
+}
+
+.menu__car_1{
+    background-color: #da9a38;
+    width: 300px;
+    height: 26.2rem;
+    opacity: 65%;
+}
+
+.menu__number{
+    position: absolute;
+    margin-top: 3.1rem;
+    margin-left: 1.5rem;
+    color: #f7f7f7;
+    font-size: 42px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+}
+
+.menu__card-title{
+    position: absolute;
+    margin-top: 6.5rem;
+    color: #f7f7f7;
+    font-size: 24px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    margin-left: 1.5rem;
+}
+
+.menu__card-subtitle{
+    position: absolute;
+    margin-top: 9.8rem;
+    color: #f7f7f7;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    margin-left: 1.5rem;
+    width: 15.5rem;
+    height: 22.1rem;
+} 
+
+
+
+
+.menu__car_2{
+    background-color: #fff;
+    width: 300px;
+    height: 26.2rem;
+    
+}
+
+.menu__car_3{
+    background-color: #fff;
+    width: 300px;
+    height: 26.2rem;
+    
+}
+
+.menu__number_2{
+    position: absolute;
+    margin-top: 3.1rem;
+    margin-left: 1.5rem;
+    color: #000000;
+    font-size: 42px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+}
+
+.menu__card-title_2{
+    position: absolute;
+    margin-top: 6.5rem;
+    color: #000000;
+    font-size: 24px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    margin-left: 1.5rem;
+}
+
+.menu__card-subtitle_2{
+    position: absolute;
+    margin-top: 9.8rem;
+    color: #000000;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    margin-left: 1.5rem;
+    width: 15.5rem;
+    height: 22.1rem;
+} 
+
+
+
+
+.menu__car_4{
+    background-color: #292929;
+    width: 300px;
+    height: 26.2rem;
+    
+}
+
+.menu__number_4{
+    position: absolute;
+    margin-top: 3.1rem;
+    margin-left: 1.5rem;
+    color: #fff;
+    font-size: 42px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+}
+
+.menu__card-title_4{
+    position: absolute;
+    margin-top: 6.5rem;
+    color: #fff;
+    font-size: 24px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    margin-left: 1.5rem;
+}
+
+.menu__card-subtitle_4{
+    position: absolute;
+    margin-top: 9.8rem;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    margin-left: 1.5rem;
+    width: 15.5rem;
+    height: 22.1rem;
+} 

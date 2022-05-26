@@ -15,3 +15,23 @@ const navMenu = document.getElementById('nav-menu'),
             navMenu.classList.remove('show-menu')
         })
     }
+
+    /*=============== POPULAR SWIPER ===============*/
+    let swiperPopular = new Swiper(".menu__cars", {
+        loop: true,
+        spaceBetween: 2,
+        slidesPerView: 'auto',
+        grabCursor: true,
+        pagination: {
+            el: ".swiper-pagination",
+            dynamicBullets: true,
+        },
+        breakpoints: {
+            768: {
+                slidesPerView: 3,
+            },
+            1024: {
+                slidesPerView: 3,
+            },
+        }
+    });
