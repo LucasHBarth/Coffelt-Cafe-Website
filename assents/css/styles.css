@@ -7,15 +7,14 @@
     margin: 0;
   }
 
-  
+/*=============== HEADER ===============*/
+
 .header__content{
     width: 100%;
     height: 109px;
     
   
 }
-
-
 
 .text__logo{
     font-family: 'Montaga', serif;
@@ -24,8 +23,6 @@
     position:absolute;
     margin-top: 2.8rem;
     margin-left: 2rem;
-
-
 }
 
 .header__search{
@@ -118,12 +115,13 @@
     margin-top: 34.3rem;
 }
 
+/*=============== ADVANTAGE ===============*/
+
 .advantage__container{
     height: 86.4rem;
     width: 100%;
     justify-content: center;
     display: flex;
-   
 }
 
 .advantage__content{
@@ -133,7 +131,6 @@
     height: 71.1;
     margin: auto;
     margin-top: 5.8rem;
-   
 }
 
 .advantage__title{
@@ -141,7 +138,6 @@
     font-size: 32px;
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
-
 }
 
 .advantage__subtitle{
@@ -155,8 +151,8 @@
 
 .advantage_list{
     margin-top: 4.5rem;
-
 }
+
 
 .circle{
     width: 7.8rem;
@@ -190,13 +186,14 @@
     margin-top: 1.8rem;
 }
 
+/*=============== NEEDS ===============*/
+
 .needs__container{
     width: 100%;
     height: 98.5rem;
     background-color: #f9f9f9;
     justify-content: center;
-    display: flex;
-    
+    display: flex;  
 }
 
 .needs__content{
@@ -205,8 +202,6 @@
     width: 20.5rem;
     align-items: center;
     justify-content: center;
-    
-   
 }
 
 .needs__title{
@@ -241,12 +236,45 @@
     text-align: center;
 }
 
+.needs__remote-title_1{
+    font-size: 22px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    margin-top: 7.1rem;
+    text-align: center;
+}
+
+.needs__remote-subtitle_1{
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+    color: #6b6b6b;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+
 .needs__remote-img {
     width: 100%;
     height: 100%;
     margin-top: 2rem;
     border-radius: 1rem;
 }
+
+.needs__remote-img2 {
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+.needs__remote-img3{
+    width: 100%;
+    height: 100%;
+    margin-top: 2rem;
+    border-radius: 1rem;
+}
+
+/*=============== ABOUT ===============*/
 
 .about__container{
     margin-top: 10.8rem;
@@ -259,8 +287,6 @@
 .about__content{
     width: 326px;
     height: 76.4rem;
-   
-   
 }
 
 .about__img{
@@ -289,7 +315,6 @@
     font-size: 32px;
     font-family: 'Mulish', sans-serif;
     font-weight: 800;
-    
 }
 
 .about__subtitle{
@@ -314,16 +339,18 @@
     font-size: 14px;
 }
 
+/*=============== MENU ===============*/
+
 .menu__container{
     width: 100%;
     height: 51.2rem;
-    background-color: #f9f9f9;
+    background-color: #f3f2f2;
     display: flex;
     justify-content: center;
 }
 
 .menu__content{
-   
+    width: 90%;
 }
 
 .menu__title{
@@ -345,7 +372,7 @@
 
 .menu__cars{
     margin-top: 2.9rem;
-    display: grid;
+    display: flex;
 }
 
 .menu__car_1{
@@ -379,29 +406,24 @@
     position: absolute;
     margin-top: 9.8rem;
     color: #f7f7f7;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Mulish', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     margin-left: 1.5rem;
     width: 15.5rem;
     height: 22.1rem;
 } 
 
-
-
-
 .menu__car_2{
     background-color: #fff;
     width: 300px;
     height: 26.2rem;
-    
 }
 
 .menu__car_3{
     background-color: #fff;
     width: 300px;
-    height: 26.2rem;
-    
+    height: 26.2rem;  
 }
 
 .menu__number_2{
@@ -428,22 +450,18 @@
     position: absolute;
     margin-top: 9.8rem;
     color: #000000;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Mulish', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     margin-left: 1.5rem;
     width: 15.5rem;
     height: 22.1rem;
 } 
 
-
-
-
 .menu__car_4{
     background-color: #292929;
     width: 300px;
     height: 26.2rem;
-    
 }
 
 .menu__number_4{
@@ -470,10 +488,247 @@
     position: absolute;
     margin-top: 9.8rem;
     color: #fff;
-    font-size: 16px;
+    font-size: 20px;
     font-family: 'Mulish', sans-serif;
-    font-weight: 400;
+    font-weight: 600;
     margin-left: 1.5rem;
     width: 15.5rem;
     height: 22.1rem;
 } 
+
+/*=============== SWIPER ===============*/
+
+.swiper {
+    width: 90%;
+    height: 90%;
+  }
+
+  .swiper-pagination{
+     position: relative !important;
+  }
+  
+  .swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet{
+      margin: 0 auto  !important;
+      bottom: 0 !important;
+      margin-top: 3rem !important;
+    }
+
+    .swiper-pagination-bullet {
+        border-radius: 20px  !important;
+        width: 70px  !important;
+        transition: 0.3s;
+        background-color: #b57b22 !important;
+        
+    }
+
+    .swiper-pagination-bullet-active{
+        background-color: #b57b22 !important;
+      }
+
+/*=============== TESTIMONY ===============*/
+
+.testimony__container{
+    width: 100%;
+    height: 64.6rem;
+    text-align: center;
+    display: flex;
+   
+    justify-content: center;
+    
+}
+
+.testimony__content{
+    width: 20.4rem;
+    height:  64.6rem;
+    
+}
+
+.testimony__title{
+    margin-top: 9.3rem;
+    font-size: 25px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+}
+
+.testimony__subtitle{
+    margin-top: 1.8rem;
+    font-size: 15px;
+    color: #6b6b6b;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+}
+
+.testimony__cards{
+    width: 327px;
+    height: 25.8rem;
+    margin-top: 3.1rem;
+    border-radius: 16px;
+    background-color: #e4e4e4;
+}
+
+.testimony__img{
+    width: 120px;
+    height: 120px;
+    margin-top: 2.8rem;
+    border-radius: 8rem;
+    background-color: #000000;
+}
+
+.testimony__name{
+    margin-top: 2rem;
+    font-size: 24px;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+
+.testimony__joob{
+    margin-top: 1.5rem;
+    font-size: 18px;
+    color: #b57b22;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+}
+
+.testimony{
+    width: 213px;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+    font-size: 16px;
+    color: #6b6b6b;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 400;
+}
+
+.quotation_marks{
+    margin-top: -3rem;
+    transform: rotate(180deg);
+    font-size: 60px;
+    color: #b57b22;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 800;
+}
+
+/*=============== RESPONSIVE WEB ===============*/
+
+@media screen and (min-width: 1040px){
+
+/*=============== ADVANTAGE ===============*/
+
+    .advantage__content{
+        width: 70%;
+    }
+    .advantage__container{
+        height: 50rem;
+    }
+    .advantage__list-content{
+     display:flex ;
+    }
+
+/*=============== NEDDS ===============*/
+
+    .nedds__itens-content{
+        display: flex;
+    }
+    .needs__container{
+        width: 100%;
+    }
+    .needs__content{
+        width: 60%;
+    }
+
+    .needs__remote-img2{
+        width: 327px;
+        height: 200px;
+        margin-left: 2rem;
+        border-radius: 0;
+    }
+  
+    .needs__remote-img{
+        width: 327px;
+        height: 200px;
+        border-radius:0;
+    }
+    .needs__remote-img3{
+        width: 327px;
+        height: 200px;
+        margin-left: 2rem;
+        border-radius: 0;
+    }
+
+    .needs__remote-title{
+        text-align: left;
+        margin-left: 2rem;
+    }
+    .needs__remote-subtitle{
+        text-align: left;
+        margin-left: 2rem;
+    }
+
+    .needs__remote-title_1{
+        text-align: left;
+    }
+    .needs__remote-subtitle_1{
+        text-align: left;
+    }
+    .needs__container{
+        height: 50.5rem;
+        text-align: center;
+        
+    }
+    .needs__subtitle{
+        width: 100%;
+        justify-content: center;
+    }
+
+/*=============== ABOUT ===============*/
+
+    .about__content{
+        width: 70%;
+        display: flex;
+    }
+    .about__info{
+        margin-left: 3rem;
+    }
+    .about__circle{
+        margin-top: 4rem;
+    }
+    .about__container-img{
+        margin-left: 9.3rem;
+    }
+    .about__info{
+        margin-left:6.8rem;
+    }
+    .about__img{
+        width: 485px;
+        height: 638px;
+    }
+    .about__title{
+        font-size: 42px;
+    }
+    .text__about-1{
+        font-size: 18px;
+    }
+    .text__about-2{
+        font-size: 18px;
+    }
+    .about__link{
+        font-size: 16px;
+    }
+    .about__container{
+        height: 60.4rem;
+    
+    }
+    .about__content{
+        height: 60.4rem;
+    }
+
+    .swiper-pagination{
+        display: none !important;
+     }
+
+    /*=============== ABOUT ===============*/
+
+     .testimony__content{
+         width: 100%;
+     }
+}

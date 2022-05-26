@@ -1,37 +1,19 @@
-/*=============== SHOW MENU ===============*/
-const navMenu = document.getElementById('nav-menu'),
-    navToggle = document.getElementById('nav-toggle'),
-    navClose = document.getElementById('nav-close')
-
-
-    if(navToggle){
-        navToggle.addEventListener('click', () =>{
-            navMenu.classList.add('show-menu')
-        })
-    }
-
-    if(navClose){
-        navClose.addEventListener('click', () =>{
-            navMenu.classList.remove('show-menu')
-        })
-    }
-
-    /*=============== POPULAR SWIPER ===============*/
-    let swiperPopular = new Swiper(".menu__cars", {
-        loop: true,
-        spaceBetween: 2,
-        slidesPerView: 'auto',
-        grabCursor: true,
-        pagination: {
-            el: ".swiper-pagination",
-            dynamicBullets: true,
+var swiper = new Swiper(".mySwiper", {
+    loop: true,
+    spaceBetween: 24,
+    slidesPerView: 'auto',
+    grabCursor: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+        768: {
+            slidesPerView: 3,
         },
-        breakpoints: {
-            768: {
-                slidesPerView: 3,
-            },
-            1024: {
-                slidesPerView: 3,
-            },
-        }
-    });
+        1024: {
+            slidesPerView: 4,
+            loop: false,
+        },
+    }
+  });
